@@ -2,14 +2,6 @@
 
 Easy example of how to implement callbacks for ruby regular methods. 
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'easy_callbacks'
-```
-
 ## Usage
 
 Let´s take TDD flow as an example.
@@ -17,8 +9,6 @@ Let´s take TDD flow as an example.
 In TDD, you write your unit test first, watch it fail, and then implement code changes until the test passes.
 
 ```ruby
-require 'easy_callbacks'
-
 class TDD
   def code
     puts 'Write the best code!'
