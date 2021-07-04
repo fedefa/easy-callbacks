@@ -1,0 +1,13 @@
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 90
+Metrics/MethodLength:
+  Max: 15
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - '**/*_spec.rb'
+Metrics/AbcSize:
+  Enabled: false
